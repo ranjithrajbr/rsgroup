@@ -1034,7 +1034,7 @@ nav.fixed .nav-bar {
   height: 55px;
 }
 .logo {
-  max-height: 60%;
+  max-height: 80%;
 }
 .logo-light {
   display: none;
@@ -1593,7 +1593,7 @@ nav.transparent {
 nav.transparent .menu > li > a,
 nav.transparent .nav-block.nav-widget i,
 nav.transparent .nav-utility {
-  color: #fff;
+  color: #000;
 }
 nav.transparent .menu > li > a,
 nav.transparent .nav-block.nav-widget i {
@@ -3421,7 +3421,7 @@ footer.page-footer-2.dark hr.fdelivery {
 }
 footer.page-footer-2.dark span.small,
 footer.page-footer-2.dark .social-links i {
-  color: #8c8c8c !important;
+  color: #fff !important;
 }
 footer.page-footer-2.dark .info-text,
 footer.page-footer-2.dark .info-text a {
