@@ -1019,6 +1019,7 @@ nav .btn,
   height: 55px;
   max-height: 55px;
   line-height: 53px;
+  background: #fff;
 }
 nav.fixed .nav-bar {
   -webkit-box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.065);
@@ -1599,7 +1600,7 @@ nav.transparent .nav-block.nav-widget i {
   opacity: 1;
 }
 nav.transparent .has-dropdown:after {
-  color: #fff;
+  color: #000;
 }
 nav.transparent .logo-dark {
   display: none;
