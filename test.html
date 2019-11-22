@@ -17,43 +17,51 @@
     <link href="css/magnific-popup.css" rel="stylesheet">
     <!--delete after config-->
     <link rel="stylesheet" href="css/style.changer.css">
+
     <!--end delete-->
+    <style>
+        .tabpad{
+            padding: 2rem 2rem 2rem 2rem;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 
 <body>
     <div class="nav-container transition-fade"><a id="top"></a>
-        <nav>
+        <nav class="absolute transparent">
             <div class="nav-bar">
                 <div class="nav-block left"><a href="index.html"><img alt="Spark" src="images/logo.png" class="logo logo-light"><img alt="Spark" src="images/logo.png" class="logo logo-dark"></a></div>
                 <div class="nav-block nav-widget mobile-toggle right visible-sm visible-xs"><i class="ic-text-align-left"></i></div>
                 <div class="nav-block-group right">
                     <div class="nav-block left">
                         <ul class="menu">
-                            <li><a  href="index.html">Home</a></li>
-                            <li><a   href="about.html">About Us</a></li>
-                            <li class="has-dropdown"><a   href="#">Restaurants</a>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li class="has-dropdown"><a href="#">Restaurants</a>
                                 <ul style="width:220px;">
                                     <li><a href="#">Pepe Verde's</a></li>
                                     <li><a href="londoncurryhouse.html">The London Curry House</a></li>
-                                    <li><a href="saaga.html">SAAGA</a></li>
+                                    <li><a href="#">SAAGA</a></li>
                                     <li><a href="#">The Asian Curry House</a></li>
-                                    <li><a href="shiv.html">Shiv Sagar</a></li>
+                                    <li><a href="#">Shiv Sagar</a></li>
                                     <li><a href="#">Shiv Sagar Express</a></li>
                                 </ul>
                             </li>
-                            <li class="has-dropdown"><a  href="#">Hotels</a>
+                            <li class="has-dropdown"><a href="#">Hotels</a>
                                 <ul style="width:280px;">
                                     <li><a href="#">The Royale Senate (Hebbal)</a></li>
                                     <li><a href="#">The Royale Senate (kumarapark)</a></li>
                                 </ul>
                             </li>
-                            <li><a   href="#">Banquet</a></li>
-                            <li><a   href="contact.html">Contact Us</a></li>
-                            <a  href="#" class="btn btn-small btn-circle">Book now</a>
+                            <li><a href="#">Banquet</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <a href="#" class="btn btn-small btn-circle">Book now</a>
                         </ul>
                     </div>
                     <!-- end of menu module-->
-                </div>  
+                </div>
                 <!-- end of module group-->
             </div>
         </nav>
@@ -61,71 +69,33 @@
     <div class="loader"></div>
     <div class="main-container transition-fade">
         <!--Start Hero Section-->
-       <section id="hero" data-background="images/home/contact.jpg" class="parallax image-bg height-60">
+        <section id="hero" data-background="images/about/banner.jpg" class="parallax image-bg height-60">
             <div class="container valign">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center">
-                        <h1 style=" text-shadow: -3px 1px 2px #000;font-weight:200;">Contact us</h1>
+                    <div style="background-color:#1e1d1d57;" class="col-md-8 col-md-offset-2 text-center">
+                        <h1>Your proactive new business</h1>
+                        <p>We provide the best solutions</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-pad pt-0">
+        <section>
             <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center">
-                    <div class="col-sm-4">
-                        <div class="feature feature-1">
-                            <div class="feature-icon"><span class="icon-map-pin"></span></div>
-                            <h5 class="feature-title">Drop on in</h5>
-                            <div class="text-center">
-                                <p>24, Bellary Road, Near Baptist Hospital,<br> Vinayakanagar, Hebbal, Bengaluru</p>
-                                <p>19/2, Crescent Road, Kumara Park East,<br> Gandhi Nagar, Bengaluru</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="feature feature-1">
-                            <div class="feature-icon"><span class="icon-phone"></span></div>
-                            <h5 class="feature-title">Give us a call</h5>
-                            <div class="text-center">
-                                <p>+91 9731306289<br>91 9731321101</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="feature feature-1">
-                            <div class="feature-icon"><span class="icon-desktop"></span></div>
-                            <h5 class="feature-title">Connect online </h5>
-                            <div class="text-center">
-                                <p>Email: info@theroyalesenate.com<br>&nbsp;&nbsp;reserve@theroyalesenatekp.com</p>
-                            </div>
-                        </div>
+                <div  class="col-lg-3">
+                    <div style="padding:20px 20px 20px 20px;" class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a style="padding:2rem 2rem 2rem 2rem;" class="nav-link  active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+                        <a style="padding:2rem 2rem 2rem 2rem;" class="nav-link " id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+                        <a style="padding:2rem 2rem 2rem 2rem;" class="nav-link " id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+                        <a style="padding:2rem 2rem 2rem 2rem;" class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 mt-80 text-center">
-                    <h3 class="mb-80">Leave a message</h3>
-                    <form id="contact-form" class="form-contact">
-                        <div class="col-md-12">
-                            <input id="input-name" name="name" type="text" placeholder="Name*" required>
-                        </div>
-                        <div class="col-md-6">
-                            <input id="input-email" name="email" type="email" placeholder="Email*" required>
-                        </div>
-                        <div class="col-md-6">
-                            <input id="input-company" name="company" type="text" placeholder="Company">
-                        </div>
-                        <div class="col-md-12">
-                            <textarea id="input-message" name="message" placeholder="Message*" required></textarea>
-                        </div>
-                        <div class="col-md-6">
-                            <div id="send-result" class="mt-20"></div>
-                        </div>
-                        <div class="col-md-6">
-                            <button id="submit-message" class="btn btn-round">Send message</button>
-                        </div>
-                    </form>
+                <div class="col-lg-9">
+                    <div style="padding:20px 20px 20px 20px;"  class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente deleniti nulla pariatur, aliquam eum, vero commodi quidem, doloremque explicabo amet ratione doloribus quae? Quidem voluptatem aliquid nobis beatae! Nemo, hic.</p></div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente deleniti nulla pariatur, aliquam eum, vero commodi quidem, doloremque explicabo amet ratione doloribus quae? Quidem voluptatem aliquid nobis beatae! Nemo, hic.</p></div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente deleniti nulla pariatur, aliquam eum, vero commodi quidem, doloremque explicabo amet ratione doloribus quae? Quidem voluptatem aliquid nobis beatae! Nemo, hic.</p></div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente deleniti nulla pariatur, aliquam eum, vero commodi quidem, doloremque explicabo amet ratione doloribus quae? Quidem voluptatem aliquid nobis beatae! Nemo, hic.</p></div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -170,14 +140,11 @@
                 <div class="row">
                     <div class="col-sm-4"><span class="small">© 2019 The Royale Senate All rights reserved.</span></div>
                     <div class="col-sm-4 text-center"><a href="#top" class="local-scroll"><i class="ti-angle-up"></i></a></div>
-                    <div class="col-sm-4 text-right"><span class="small"> Crafted with care by <a href="#" onMouseOver="this.style.color='#0e9ed4'" onMouseOut="this.style.color='#fff'">NativeCreativ</a></span>    
+                    <div class="col-sm-4 text-right"><span class="small"> Crafted with care by <a href="#" onMouseOver="this.style.color='#0e9ed4'" onMouseOut="this.style.color='#fff'">NativeCreativ</a></span>
                     </div>
                 </div>
             </div>
         </footer>
-        <div id="notify" class="notify notify-sm">
-            <div class="notify-inner valign text-center"></div><span class="notify-close"></span>
-        </div>
     </div>
     <!--JS scripts-->
     <script src="js/vendor/jquery-2.2.0.min.js"></script>
@@ -191,6 +158,9 @@
     <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
     <!--delete after config-->
     <script src="js/style.changer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!--end delete-->
 </body>
 
