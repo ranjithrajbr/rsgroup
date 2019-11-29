@@ -361,8 +361,8 @@ span.type-deleted {
 }
 .btn.btn-color {
   color: #fff;
-  border: 2px solid #5b90b7;
-  background: #5b90b7;
+  border: 2px solid #fff;
+  background: #007afd;
 }
 .btn.btn-color:hover,
 .btn.btn-color:focus {
