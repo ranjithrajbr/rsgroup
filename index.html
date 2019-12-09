@@ -30,9 +30,9 @@
                 <div class="nav-block-group right">
                     <div class="nav-block left">
                         <ul class="menu">
-                            <li><a  href="index.html">Home</a></li>
-                            <li><a   href="about.html">About Us</a></li>
-                            <li class="has-dropdown"><a   href="#">Restaurants</a>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li class="has-dropdown"><a href="#">Restaurants</a>
                                 <ul style="width:220px;">
                                     <li><a href="pepe.html">Pepe Verde's</a></li>
                                     <li><a href="londoncurryhouse.html">The London Curry House</a></li>
@@ -42,16 +42,21 @@
                                     <li><a href="express.html">Shiv Sagar Express</a></li>
                                 </ul>
                             </li>
-                            <li class="has-dropdown"><a  href="#">Hotels</a>
+                            <li class="has-dropdown"><a href="#">Hotels</a>
                                 <ul style="width:280px;">
                                     <li><a href="hebbal.html">The Royale Senate (Hebbal)</a></li>
                                     <li><a href="kumara.html">The Royale Senate (kumarapark)</a></li>
                                 </ul>
                             </li>
-                            <li><a href="banquet.html">Banquet</a></li>
+                            <li class="has-dropdown"><a href="#">Banquets</a>
+                                <ul style="width:280px;">
+                                    <li><a href="skye.html">Skye banquet hall (Hebbal)</a></li>
+                                    <li><a href="rooftop.html">Rooftop banquet hall (kumarapark)</a></li>
+                                </ul>
+                            </li>
                             <li><a href="catering.html">Outdoor Catering</a></li>
                             <li><a href="contact.html">Contact Us</a></li>
-                            <a  href="#" class="btn btn-small btn-circle">Book now</a>
+                            <a href="#" class="btn btn-small btn-circle">Book now</a>
                         </ul>
                     </div>
                     <!-- end of menu module-->
@@ -62,44 +67,55 @@
     </div>
     <div class="main-container transition-fade">
         <!--Start Hero Section-->
-      <section data-autoplay="false" data-animation="fade" data-arrows="true" data-pagination="true" class="slider slider--animate height-100">
-        <ul class="slides">
-          <li data-background="images/home/banner.jpg" data-overlay="1" class="image-holder image-bg">
-            <div class="container valign">
-              <div class="row">
-                <div class="col-md-10 col-md-offset-1 text-center">
-                  <h2 class="bold">Where quality and customer satisfaction are of paramount importance</h2>
-                  <a href="about.html" class="btn">Know more</a><a href="contact.html" class="btn btn-color">Lets Talk</a><span>&nbsp;&nbsp;</span>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li data-background="images/home/banner2.jpeg" data-overlay="3" class="image-holder image-bg">
-            <div class="container valign">
-              <div class="row">
-                <div class="col-md-10 col-md-offset-1 text-center">
-                  <h2 class="bold">The love for food and hospitality is deeply rooted within every member of the management, staff and partners.</h2>
-                  <a href="about.html" class="btn">Know more</a><a href="contact.html" class="btn btn-color">Lets Talk</a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li data-background="images/asian/asianbanner.jpeg" data-overlay="3" class="image-holder image-bg"></li>
-          <li data-background="images/pepe/three.jpeg" data-overlay="3" class="image-holder image-bg"></li>
-          <li data-background="images/shivsagar/1.jpeg" data-overlay="3" class="image-holder image-bg"></li>
-          <li data-background="images/express/4.jpeg" data-overlay="3" class="image-holder image-bg"></li>
-        </ul>
-      </section> 
-       <!--  <section id="hero" data-overlay="3" data-background="images/home/banner.jpg" class="height-100 parallax image-bg">
-            <div class="container valign">
-                <div class="row">
-                    <div class="col-md-6 col-sm-8">
-                        <h2>RS group - Pioneering the F&B sector since 1997 </h2>
-                        <p class="mb-40">The Balikere brothers' love for food is no common romanticism which people face when they encounter the culinary world.</p><a href="#" class="btn btn-color">Know more</a><a href="#" class="btn btn-color">Lets talk</a>
+        <section data-autoplay="false" data-animation="fade" data-arrows="true" data-pagination="true" class="slider slider--animate height-100">
+            <ul class="slides">
+                <li data-background="images/asian/asianbanner.jpeg" data-overlay="3" class="image-holder image-bg">
+                    <div class="container valign">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1 text-center">
+                                <h2 class="bold">The Asian Curry House</h2>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div><a href="#go" class="btn-scroll-down local-scroll"><span class="ico-arrows_down"></span></a>
-        </section> -->
+                </li>
+                <li data-background="images/london/one.jpeg" data-overlay="3" class="image-holder image-bg">
+                    <div class="container valign">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1 text-center">
+                                <h2 class="bold">The London Curry House</h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li data-background="images/pepe/three.jpeg" data-overlay="3" class="image-holder image-bg">
+                    <div class="container valign">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1 text-center">
+                                <h2 class="bold">Pepe Verde's</h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li data-background="images/shivsagar/1.jpeg" data-overlay="3" class="image-holder image-bg">
+                    <div class="container valign">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1 text-center">
+                                <h2 class="bold">Shiv Sagar</h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li data-background="images/express/4.jpeg" data-overlay="3" class="image-holder image-bg">
+                    <div class="container valign">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1 text-center">
+                                <h2 class="bold">Shiv Sagar Express</h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
         <section>
             <div class="container">
                 <div class="row">
@@ -153,21 +169,21 @@
                 </div>
             </div>
         </section>
-         <section class="image-square left bg-gray">
-        <div data-background="images/home/whoweare.jpeg" class="col-md-6 image image-holder"></div>
-        <div class="col-md-6 content">
-          <h3 class="mb-30">Who we are?</h3>
-          <p class="mb-30">Apart from being one of the leading conglomerates in the F&B and hospitality sector, the RS group is synonymous with exceptional quality. We pride ourselves in having our patrons repetitively visit our locations and have a wonderful time. Established in the year 1997 by Ram and Shyam, we have grown exponentially across all verticals, catering to a wide audience from across the country.</p><a href="#" class="btn">Read more</a>
-        </div>
-      </section>
+        <section class="image-square left bg-gray">
+            <div data-background="images/home/whoweare.jpeg" class="col-md-6 image image-holder"></div>
+            <div class="col-md-6 content">
+                <h3 class="mb-30">Who we are?</h3>
+                <p class="mb-30">Apart from being one of the leading conglomerates in the F&B and hospitality sector, the RS group is synonymous with exceptional quality. We pride ourselves in having our patrons repetitively visit our locations and have a wonderful time. Established in the year 1997 by Ram and Shyam, we have grown exponentially across all verticals, catering to a wide audience from across the country.</p><a href="#" class="btn">Read more</a>
+            </div>
+        </section>
         <section class="image-square right bg-gray">
-            <div  class="col-md-6 image">
+            <div class="col-md-6 image">
                 <video controls width="100%" height="350" loop muted poster="video/thumb.jpeg">
-                  <source src="video/video.mp4" type="video/mp4">
-                  <p>Your browser doesn't support HTML video. Here is a <a href="assets/video/about2.mp4">link to the video</a> instead.</p>
-                 </video>
-            </div> 
-             <div style="top:30%;"  class="col-md-6 content">
+                    <source src="video/video.mp4" type="video/mp4">
+                    <p>Your browser doesn't support HTML video. Here is a <a href="assets/video/about2.mp4">link to the video</a> instead.</p>
+                </video>
+            </div>
+            <div style="top:30%;" class="col-md-6 content">
                 <h3 class="mb-30">Why people choose us?</h3>
                 <p class="mb-30">The name Royal Senate group is synonymous with outstanding quality, unparalleled taste, remarkable hygiene and a premium and memorable experience. Our principles and core values have always guided us throughout our journey and are a reason that we are able to bring to the table what we promise. </p>
             </div>
@@ -177,7 +193,6 @@
                   <p>Your browser doesn't support HTML video. Here is a <a href="assets/video/about2.mp4">link to the video</a> instead.</p>
                  </video>
             </div> -->
-           
         </section>
         <section class="pt-0">
             <div class="container">
@@ -191,37 +206,37 @@
                 </div>
             </div>
         </section>
-      <section class="bg-light">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center">
-              <h3>Our <b>clients reviews</b></h3>
+        <section class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <h3>Our <b>clients reviews</b></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div data-pagination="true" class="slider slider-controlsoutside pt-40 pb-0">
+                        <ul class="slides">
+                            <!--Item start-->
+                            <li>
+                                <div class="col-sm-8 col-sm-offset-2 text-center">
+                                    <blockquote>&ldquo;Enjoyed my stay! The rooms are good. The saga restaurant is very good, it's value for money. The most attraction is Sunday lunch Prawn. The behaviour of staffis genuine and very good &rdquo;</blockquote>
+                                    <h5>&mdash; Debasish Rath, Bangalore</h5>
+                                </div>
+                            </li>
+                            <!--Item end-->
+                            <!--Item start-->
+                            <li>
+                                <div class="col-sm-8 col-sm-offset-2 text-center">
+                                    <blockquote>&ldquo;Value for Money = Excellent Food = Excellent Room Comfort = V GOOD Staff = Excellent Location = GOOD Connectivity to CBD = Goood Weather for business or pleasure this hotel I recommend&rdquo;</blockquote>
+                                    <h5>&mdash; Raina Sanjay, National Capital Territory of Delhi, India</h5>
+                                </div>
+                            </li>
+                            <!--Item end-->
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="row">
-            <div data-pagination="true" class="slider slider-controlsoutside pt-40 pb-0">
-              <ul class="slides">
-                <!--Item start-->
-                <li>
-                  <div class="col-sm-8 col-sm-offset-2 text-center">
-                    <blockquote>&ldquo;Enjoyed my stay! The rooms are good. The saga restaurant is very good, it's value for money. The most attraction is Sunday lunch Prawn. The behaviour of staffis genuine and very good &rdquo;</blockquote>
-                    <h5>&mdash; Debasish Rath, Bangalore</h5>
-                  </div>
-                </li>
-                <!--Item end-->
-                <!--Item start-->
-                <li>
-                  <div class="col-sm-8 col-sm-offset-2 text-center">
-                     <blockquote>&ldquo;Value for Money = Excellent Food = Excellent Room Comfort = V GOOD Staff = Excellent Location = GOOD Connectivity to CBD = Goood Weather for business or pleasure this hotel I recommend&rdquo;</blockquote>
-                     <h5>&mdash; Raina Sanjay, National Capital Territory of Delhi, India</h5>
-                  </div>
-                </li>
-                <!--Item end-->
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
         <section data-overlay="3" data-background="images/home/letstalk.jpg" class="pt-130 pb-130 parallax image-bg">
             <div class="container">
                 <div class="row">
@@ -269,12 +284,11 @@
                 <div class="row">
                     <div class="col-sm-4"><span class="small">© 2019 The Royale Senate All rights reserved.</span></div>
                     <div class="col-sm-4 text-center"><a href="#top" class="local-scroll"><i class="ti-angle-up"></i></a></div>
-                    <div class="col-sm-4 text-right hidden-xs"><span class="small"> Crafted with care by <a href="#" onMouseOver="this.style.color='#0e9ed4'" onMouseOut="this.style.color='#fff'">NativeCreativ</a></span>    
+                    <div class="col-sm-4 text-right hidden-xs"><span class="small"> Crafted with care by <a href="#" onMouseOver="this.style.color='#0e9ed4'" onMouseOut="this.style.color='#fff'">NativeCreativ</a></span>
                     </div>
                 </div>
             </div>
         </footer>
-        
         <!--end deleter-->
     </div>
     <!--JS scripts-->
