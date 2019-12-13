@@ -905,6 +905,13 @@ div[data-overlay] ul {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
+.image-holder-mainbanner {
+  position: relative;
+  -webkit-background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
 .bg-dark {
   background: #292929;
 }
@@ -1034,7 +1041,7 @@ nav.fixed .nav-bar {
   height: 55px;
 }
 .logo {
-  max-height: 80%;
+  max-height: 120%;
 }
 .logo-light {
   display: none;
