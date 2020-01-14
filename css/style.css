@@ -32,6 +32,7 @@
 30. Paddings & Margins 
 -------------------------------------------------------------------*/
 /**! 1. Global **/
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400i&display=swap');
 html {
   font-size: 100%;
 }
@@ -90,7 +91,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-family: 'Old Standard TT', serif;
+  /* font-family: "Poppins", Helvetica, Arial, sans-serif; */
   margin-bottom: 1em;
   line-height: 1.4;
   font-weight: 300;
@@ -307,6 +309,9 @@ a.line-link:hover:after {
 }
 .left {
   left: 0;
+}
+.bg-rsblue{
+  background: #87d1f2;
 }
 span.type-deleted {
   text-decoration: line-through;
@@ -989,7 +994,8 @@ nav {
   max-width: 100%;
 }
 nav ul {
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
+  margin-top: 20px;
 }
 .nav-block {
   display: inline-block;
@@ -1023,8 +1029,8 @@ nav .btn,
   top: 1px;
 }
 .nav-bar {
-  height: 55px;
-  max-height: 55px;
+  height: 90px;
+  max-height: 90px;
   line-height: 53px;
   background: #fff;
 }
@@ -1041,7 +1047,7 @@ nav.fixed .nav-bar {
   height: 55px;
 }
 .logo {
-  max-height: 120%;
+  max-height: 180%;
 }
 .logo-light {
   display: none;
@@ -1081,7 +1087,7 @@ nav.bg-dark .logo-dark {
   width: auto;
 }
 .menu li a {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 300;
   letter-spacing: 1px;
   color: #292929;
